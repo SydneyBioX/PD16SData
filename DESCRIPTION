@@ -1,0 +1,20 @@
+Package: PD16Sdata
+Title: 16S Gut Microbiome of Parkinson's disease.
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Xiangnan",
+           family = "Xu",
+           role = c("aut", "cre"),
+           email = "xixu2797@uni.sydney.edu.au")
+Description: The pacakge contain eleven 16S gut microbiome Parkinson's disease datasets.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: R (>= 2.10)
+Imports: phyloseq
+NeedsCompilation: no
+Packaged: 2021-06-25 01:58:35 UTC; Lenovo
+Author: Xiangnan Xu [aut, cre]
+Maintainer: Xiangnan Xu <xixu2797@uni.sydney.edu.au>
