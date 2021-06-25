@@ -15,6 +15,6 @@ RoxygenNote: 7.1.1
 Depends: R (>= 2.10)
 Imports: phyloseq
 NeedsCompilation: no
-Packaged: 2021-06-25 01:58:35 UTC; Lenovo
+Packaged: 2021-06-25 03:50:25 UTC; Lenovo
 Author: Xiangnan Xu [aut, cre]
 Maintainer: Xiangnan Xu <xixu2797@uni.sydney.edu.au>

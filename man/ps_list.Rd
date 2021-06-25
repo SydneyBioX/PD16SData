@@ -3,7 +3,7 @@
 \docType{data}
 \name{ps_list}
 \alias{ps_list}
-\title{Details of the dataset information can be found in ./data-raw/data_information.xlsx
+\title{A list of phyloseq contain both 16S sequence data and metadata
 \describe{
 \item{ps_Hill_Burns}{A phyloseq object contain 332 samples from Hill-Burns et al.}
 \item{ps_Aho}{A phyloseq object contain 266 samples from Aho et al.}
@@ -24,7 +24,7 @@ A list contain 11 phyloseq object
 ps_list
 }
 \description{
-Details of the dataset information can be found in ./data-raw/data_information.xlsx
+A list of phyloseq contain both 16S sequence data and metadata
 \describe{
 \item{ps_Hill_Burns}{A phyloseq object contain 332 samples from Hill-Burns et al.}
 \item{ps_Aho}{A phyloseq object contain 266 samples from Aho et al.}

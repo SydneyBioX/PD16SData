@@ -9,7 +9,7 @@
 NULL
 
 #'
-#' Details of the dataset information can be found in ./data-raw/data_information.xlsx
+#' A list of phyloseq contain both 16S sequence data and metadata
 #' \describe{
 #'   \item{ps_Hill_Burns}{A phyloseq object contain 332 samples from Hill-Burns et al.}
 #'   \item{ps_Aho}{A phyloseq object contain 266 samples from Aho et al.}
@@ -27,3 +27,16 @@ NULL
 #' @format A list contain 11 phyloseq object
 "ps_list"
 
+#' A dataframe contain information about all the dataset
+#' \describe{
+#'   \item{ID}{Dataset name}
+#'   \item{DOI}{DOI of related paper}
+#'   \item{PRJ}{Project access number in EBI or NCBI}
+#'   \item{National}{Cohort national}
+#'   \item{Targeted}{Targeted region of the sequence}
+#'   \item{Truncated}{Parameters of truncation in dada2 pipeline}
+#'   ...
+#' }
+#'
+#' @format A dataframe contain 14 rows of dataset and 15 meta information
+"data_info"
